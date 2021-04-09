@@ -702,6 +702,8 @@ img {
   .backdrop__modal {
     width: 100%;
     max-width: 450px;
+    height: 95%;
+    max-height: 609px;
     overflow: scroll;
   }
   .backdrop__modal__text {
