@@ -694,6 +694,16 @@ img {
   border-radius: 4px;
 }
 
+@media screen and (max-width: 1199px) {
+  .backdrop__modal {
+    width: 100%;
+    max-width: 450px;
+    height: 95%;
+    max-height: 609px;
+    overflow: scroll;
+  }
+}
+
 .backdrop__modal-close {
   background-color: var(--white-color);
   border: none;
@@ -796,6 +806,14 @@ img {
   height: 24px;
   width: 24px;
   fill: var(--white-color);
+}
+
+@media screen and (max-width: 1199px) {
+  width: 100%;
+  max-width: 450px;
+  height: 95%;
+  max-height: 609px;
+  overflow: scroll;
 }
 
 .backdrop__form {
