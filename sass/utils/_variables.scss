@@ -1,0 +1,13 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --accent-color: #2196f3;
+  --secondary-color: #212121;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --gray-color: #757575;
+  --color-change: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --fill-change: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --background-color-change: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --border-color-change: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
