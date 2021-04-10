@@ -356,7 +356,7 @@ img {
 }
 
 @media screen and (max-width: 767px) {
-  .advantages__item:not(:last-child) {
+  .advantages__item {
     margin-bottom: 30px;
     padding: 0 15px;
   }
