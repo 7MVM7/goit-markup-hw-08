@@ -675,8 +675,8 @@ img {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   background: rgba(0, 0, 0, 0.2);
   transition: 1s cubic-bezier(0.4, 0, 0.2, 1);
   z-index: 1000;
@@ -1005,6 +1005,7 @@ textarea {
   .backdrop__checkbox-label {
     font-size: 12px;
     line-height: 1.16;
+    margin-left: -1px;
   }
 }
 
