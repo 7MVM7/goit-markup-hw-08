@@ -33,7 +33,6 @@
   }
   @media screen and (max-width: 767px) {
     margin-bottom: 30px;
-    padding: 0 15px;
   }
 }
 
@@ -46,6 +45,9 @@
   text-transform: uppercase;
   color: var(--secondary-color);
   margin-bottom: 10px;
+  @media screen and (max-width: 767px) {
+    text-align: center;
+  }
 }
 .advantages__text {
   font-family: var(--main-font);
