@@ -376,7 +376,6 @@ img {
 
 @media screen and (min-width: 768px) {
   .advantages__item {
-    flex-basis: calc((100% -2 * 30px) / 2);
     margin-left: 30px;
     margin-top: 30px;
     max-width: 354px;
@@ -523,6 +522,8 @@ img {
 }
 
 .team__list {
+  display: flex;
+  flex-wrap: wrap;
   margin-left: -30px;
 }
 
@@ -546,6 +547,8 @@ img {
 @media screen and (min-width: 1200px) {
   .team__item {
     flex-basis: calc((100% -4 * 30px) / 4);
+    max-width: 270px;
+    max-height: 428px;
   }
 }
 
@@ -557,7 +560,6 @@ img {
 
 .team__item {
   background-color: #ffffff;
-  flex-basis: calc((100% -4 * 30px) / 4);
   margin-left: 30px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;

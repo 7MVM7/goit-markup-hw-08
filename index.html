@@ -170,7 +170,13 @@
         <ul class="list about__list">
 
           <li class="about__item">
-            <img src="./images/about/img-about.jpg" alt="Разработчик пишет код сайта" width="370" height="294" />
+            <picture>
+              <source srcset="./images/about/about-img@1x.jpg 1x, ./images/about/about-img@2x.jpg 2x "
+                media="(min-width:1200px)">
+              <img src="./images/about/img-about.jpg" alt="Разработчик пишет код сайта">
+
+            </picture>
+
             <div class=" about__overlay">
               <p class="about__text">
                 Десктопные приложения
@@ -181,8 +187,14 @@
 
 
           <li class="about__item">
-            <img src="./images/about/img-about-test.jpg" alt="Тестировщик проверяет
-            работу вебсайта на других устройствах" width="370" height="294" />
+
+            <picture>
+              <source srcset="./images/about/test-img@1x.jpg 1x, ./images/about/test-img@2x.jpg 2x "
+                media="(min-width:1200px)">
+              <img src="./images/about/img-about-test.jpg" alt="Тестировщик проверяет
+            работу вебсайта на других устройствах" />
+            </picture>
+
             <div class="about__overlay">
               <p class="about__text">
                 Мобильные приложения
@@ -192,8 +204,14 @@
 
           </li>
           <li class="about__item">
-            <img src="./images/about/img-about-des.jpg" alt="Дизайнер подбирает цвета вебсайта" width="370"
-              height="294" />
+
+            <picture>
+              <source srcset="./images/about/des-img@1x.jpg 1x, ./images/about/des-img@2x.jpg 2x "
+                media="(min-width:1200px)">
+
+              <img src="./images/about/img-about-des.jpg" alt="Дизайнер подбирает цвета вебсайта">
+            </picture>
+
             <div class="about__overlay">
               <p class="about__text">
                 Дизайнерские решения
@@ -218,15 +236,15 @@
             <picture>
               <source srcset="./images/team/desktop/igor-img@1x.jpg 1x, ./images/team/desktop/igor-img@2x.jpg 2x "
                 media="(min-width:1200px)">
-              <source srcset="" media="(min-width:1200px)">
-              <source srcset="" media="(min-width:768px)">
-              <source srcset="" media="(min-width:768px)">
-              <source srcset="" media="(min-width:320px)">
+
+              <source srcset="./images/team/tablet/igor-img@1x.jpg 1x, ./images/team/tablet/igor-img@2x.jpg 2x"
+                media="(min-width:768px)">
+
+
               <source srcset="./images/team/mobile/igor-img@1x.jpg 1x, ./images/team/mobile/igor-img@2x.jpg 2x "
                 media="(min-width:320px)">
 
-              <!-- <img src="./images/team/igor-img.jpg" width="270" height="260"
-                alt="Игорь Демьяненко - Дизайнер продуктов" /> -->
+              <img src="./images/team/igor-img.jpg" alt="Игорь Демьяненко - Дизайнер продуктов" />
 
 
             </picture>
@@ -289,7 +307,24 @@
 
           </li>
           <li class="team__item">
-            <img src="./images/team/olga-img.jpg" width="270" height="260" alt="Ольга Репина-фронтенд-разработчик" />
+
+            <picture>
+              <source srcset="./images/team/desktop/olga-img@1x.jpg 1x, ./images/team/desktop/olga-img@2x.jpg 2x "
+                media="(min-width:1200px)">
+
+              <source srcset="./images/team/tablet/olga-img@1x.jpg 1x, ./images/team/tablet/olga-img@2x.jpg 2x"
+                media="(min-width:768px)">
+
+
+              <source srcset="./images/team/mobile/olga-img@1x.jpg 1x, ./images/team/mobile/olga-img@2x.jpg 2x "
+                media="(min-width:320px)">
+
+
+              <img src="./images/team/olga-img.jpg" alt="Ольга Репина-фронтенд-разработчик" />
+
+            </picture>
+
+
             <div class="team__box">
               <h3 class="team__name">Ольга Репина</h3>
               <p lang="en" class="team__position">Frontend Developer</p>
@@ -349,8 +384,23 @@
 
           </li>
           <li class="team__item">
-            <img src="./images/team/nikolas-img.jpg" width="270" height="260"
-              alt="Николай Тарасов-Маркетинг-UI дизайнер" />
+            <picture>
+              <source srcset="./images/team/desktop/nikolas-img@1x.jpg 1x, ./images/team/desktop/nikolas-img@2x.jpg 2x "
+                media="(min-width:1200px)">
+
+              <source srcset="./images/team/tablet/nikolas-img@1x.jpg 1x, ./images/team/tablet/nikolas-img@2x.jpg 2x"
+                media="(min-width:768px)">
+
+
+              <source srcset="./images/team/mobile/nikolas-img@1x.jpg 1x, ./images/team/mobile/nikolas-img@2x.jpg 2x "
+                media="(min-width:320px)">
+
+              <img src="./images/team/nikolas-img.jpg" alt="Николай Тарасов-Маркетинг-UI дизайнер" />
+
+
+            </picture>
+
+
             <div class="team__box">
               <h3 class="team__name">Николай Тарасов</h3>
               <p lang="en" class="team__position">Marketing</p>
@@ -407,7 +457,22 @@
 
           </li>
           <li class="team__item">
-            <img src="./images/team/misha-img.jpg" width="270" height="260" alt="Михаил Ермаков-UI Designer" />
+
+            <picture>
+              <source srcset="./images/team/desktop/misha-img@1x.jpg 1x, ./images/team/desktop/misha-img@2x.jpg 2x "
+                media="(min-width:1200px)">
+
+              <source srcset="./images/team/tablet/misha-img@1x.jpg 1x, ./images/team/tablet/misha-img@2x.jpg 2x"
+                media="(min-width:768px)">
+
+
+              <source srcset="./images/team/mobile/misha-img@1x.jpg 1x,./images/team/mobile/misha-img@2x.jpg 2x "
+                media="(min-width:320px)">
+
+
+              <img src="./images/team/misha-img.jpg" alt="Михаил Ермаков-UI Designer" />
+
+            </picture>
 
             <div class="team__box">
               <h3 class="team__name">Михаил Ермаков</h3>

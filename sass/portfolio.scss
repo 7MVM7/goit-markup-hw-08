@@ -1,19 +1,19 @@
-@import "./variables";
-@import "../base/common";
-@import "../utils/vissually-hidden";
-@import "../base/container";
+@import "./utils/variables";
+@import "./base/common";
+@import "./utils/vissually-hidden";
+@import "./base/container";
 
-@import "../components/img";
-@import "../components/header";
-@import "../components/title";
-@import "../components/logo";
-@import "../components/icon-social";
-@import "../components/nav-header";
-@import "../components/mail-link-header";
+@import "./components/img";
+@import "./components/header";
+@import "./components/title";
+@import "./components/logo";
+@import "./components/icon-social";
+@import "./components/nav-header";
+@import "./components/mail-link-header";
 
-@import "../components/portfolio-filter";
-@import "../layout/potrfolio-card";
+@import "./components/portfolio-filter";
+@import "./layout/potrfolio-card";
 
-@import "../components/cotacts";
+@import "./components/cotacts";
 
-@import "../components/modal";
+@import "./components/modal";
