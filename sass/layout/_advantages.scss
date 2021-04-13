@@ -39,20 +39,13 @@
 }
 
 .advantages__title {
-  font-family: var(--main-font);
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: var(--secondary-color);
-  margin-bottom: 10px;
+margin-bottom: 10px;
   @media screen and (max-width: 767px) {
     text-align: center;
   }
 }
 .advantages__text {
-  font-family: var(--main-font);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;

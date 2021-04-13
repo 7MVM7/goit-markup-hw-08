@@ -1,25 +1,28 @@
 @import "./utils/variables";
 @import "./utils/vissually-hidden";
-@import "./base/common";
 
+@import "./base/common";
 @import "./base/container";
 
 @import "./components/img";
 @import "./components/header";
 @import "./components/title";
 @import "./components/logo";
-@import "./components/icon-social";
 @import "./components/nav-header";
 @import "./components/mail-link-header";
+@import "./components/contacts";
+@import "./components/modal";
+@import "./components/item";
+@import "./components/set";
+@import "./components/social";
+@import "./components/sign-form";
+@import "./components/botton";
+@import "./components/subtitle";
 
 @import "./layout/hero";
 @import "./layout/advantages";
 @import "./layout/about";
 @import "./layout/our-team";
-@import "./layout/regular-clients";
-
-@import "./components/cotacts";
-
-@import "./components/modal";
-
+@import "./layout/customers";
 @import "./layout/form";
+
