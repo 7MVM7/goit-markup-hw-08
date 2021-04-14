@@ -40,6 +40,7 @@
 
 .sign-up__input {
     width: 100%;
+    outline: none;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 16px;
@@ -68,6 +69,10 @@
     @media screen and (min-width:1200px) {
         max-width: 358px;
         margin-right: 12px;
+        &:hover,
+      &:focus {
+            border-color: var(--accent-color);
+      }
     }
 }
 

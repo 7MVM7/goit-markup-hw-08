@@ -5,6 +5,8 @@
   padding-bottom: 94px;
 
   &__item {
+    max-width: 450px;
+    max-height: 622px;
     background-color: #ffffff;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
       0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -37,7 +39,11 @@
   }
 }
 
-
+@media screen and (max-width: 767px){
+  .team__item:not(:last-child) {
+  margin-bottom: 30px;
+}
+} 
 
 
 @media screen and (min-width: 768px) {
@@ -45,6 +51,7 @@
     &__item {
       max-width: 354px;
       max-height: 536px;
+     
     }
   }
 }
@@ -56,8 +63,7 @@
     padding-bottom: 60px;
 
     &__item {
-      max-width: 450px;
-      max-height: 622px;
+      
       box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
         0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
       border-radius: 0px 0px 4px 4px;
