@@ -1,53 +1,90 @@
-// .contact-head__icon {
-//   margin-right: 10px;
-//   width: 16px;
-//   height: 12px;
-//   fill: #757575;
-//   transition: var(--fill-change);
-// }
-// .contact-head__icon--tel {
-//   margin-right: 10px;
-//   width: 10px;
-//   height: 16px;
-//   fill: #757575;
-//   transition: var(--fill-change);
-// }
+.contact-head__icon {
+  margin-right: 10px;
+  width: 16px;
+  height: 12px;
+  fill: #757575;
+  transition: var(--fill-change);
+}
 
-// .contact-head__link {
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   padding-top: 32px;
-//   padding-bottom: 32px;
-//   font-family: var(--main-font);
-//   font-weight: 500;
-//   font-size: 14px;
-//   line-height: 1.14;
-//   letter-spacing: 0.02em;
-//   color: var(--gray-color);
-//   transition: var(--color-change);
+.contact-head__icon--tel {
+  margin-right: 10px;
+  width: 10px;
+  height: 16px;
+  fill: #757575;
+  transition: var(--fill-change);
+}
 
-//   &:hover .contact-head__icon,
-//   &:focus .contact-head__icon {
-//     fill: var(--accent-color);
-//   }
+.contact-head__link {
 
-//   &:hover .contact-head__icon--tel,
-//   &:focus .contact-head__icon--tel {
-//     fill: var(--accent-color);
-//   }
-//   &:hover,
-//   &:focus {
-//     color: var(--accent-color);
-//   }
-// }
+  align-items: center;
 
-// .contact-head__item:not(:last-child) {
-//   margin-right: 50px;
-// }
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+letter-spacing: var(--main-links-letter-spacing);
+  color: var(--gray-color);
+  transition: var(--color-change);
 
-// .contact-head {
-//   display: flex;
-//   align-items: center;
-//   margin-left: auto;
-// }
+  &:hover .contact-head__icon,
+  &:focus .contact-head__icon {
+    fill: var(--accent-color);
+  }
+
+  &:hover .contact-head__icon--tel,
+  &:focus .contact-head__icon--tel {
+    fill: var(--accent-color);
+  }
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+
+
+@media screen and (max-width: 1199px) {
+  .contact-head__link {
+    display: flex;
+    align-items: center;
+
+  }
+
+  .contact-head {
+
+    margin-left: auto;
+  }
+
+  .contact-head__item:not(:first-child) {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+
+  .contact-head__icon,
+  .contact-head__icon--tel {
+    margin-right: 8px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .contact-head__item:not(:last-child) {
+    margin-right: 50px;
+  }
+
+  .contact-head {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+
+  .contact-head__link {
+    display: flex;
+    justify-content: center;
+    
+  }
+
+
+}
